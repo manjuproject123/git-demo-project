@@ -2,7 +2,7 @@ public class Student {
     private int id;
     private String name;
     private String course;
-    private String email;
+    public String email;
 
     public Student(int id, String name, String course, String email) {
         this.id = id;
